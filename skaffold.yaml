@@ -17,7 +17,6 @@ kind: Config
 build:
   artifacts:
   - image: contacts
-    context: src/contacts
 deploy:
   kubectl:
     manifests:
